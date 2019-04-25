@@ -131,6 +131,7 @@ gulp.task("copy", function () {
         "img/**",
         "_design/*.jpg",
         "js/**",
+        "css/*.css",
         "*.html"
     ], {
         base: "."
@@ -156,7 +157,12 @@ gulp.task("html:update", ["html:copy"], function (done) {
 
 gulp.task("js:copy", function () {
     return gulp.src("js/**")
-        .pipe(gulp.dest("build"))
+        .pipe(gulp.dest("build/js"))
+});
+
+gulp.task("css:copy", function () {
+    return gulp.src("css/**")
+        .pipe(gulp.dest("build/css"))
 });
 
 gulp.task("js:update", ["js:copy"], function (done) {
@@ -193,7 +199,7 @@ gulp.task("build", function (fn) {
 });
 
 // Отправка в GH pages (ветку gh-pages репозитория)
-var ghPagesUrl = 'https://sheffcer.github.io/107217-pink/index.html';
+var ghPagesUrl = 'https://sheffcer.github.io/battery/battery.html';
 
 gulp.task('deploy', function() {
     console.log('---------- Публикация ./build/ на GH pages');
