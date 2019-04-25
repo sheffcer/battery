@@ -1,0 +1,38 @@
+div.owl-carousel {
+  width: 280px;
+  z-index: 1;
+  margin: 0 auto;
+
+  @media (min-width: $screen-sm) {
+    width: 440px;
+  }
+
+  @media (min-width: $screen-md) {
+    width: 728px;
+  }
+
+  @media (min-width: $screen-lg) {
+    width: 992px;
+  }
+}
+
+.item-video iframe {
+  width: 280px;
+  height: 158px;
+  @media (min-width: $screen-sm) {
+    width: 440px;
+    height: 248px;
+  }
+
+  @media (min-width: $screen-md) {
+    width: 728px;
+    height: 411px;
+  }
+
+  @media (min-width: $screen-lg) {
+    width: 992px;
+    height: 560px;
+  }
+
+}
+
