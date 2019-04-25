@@ -1,0 +1,5 @@
+.charge {
+  &__inner {
+    @include container;
+  }
+}
