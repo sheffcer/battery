@@ -3,17 +3,29 @@
     @include container;
   }
 
-  &__grid {
-    @include row;
-    //outline: 1px dotted black;
-    outline: 1px dotted aqua!important;
-  }
+  //&__grid {
+  //  @include row;
+  //  //outline: 1px dotted black;
+  //  outline: 1px dotted red!important;
+  //}
+  //
+  //&__item {
+  //  @include col(xs, 12);
+  //  @include col(sm, 6);
+  //  @include col(md, 4);
+  //  @include col(lg, 2);
+  //  outline: 1px dashed red;
+  //}
 
-  &__item {
-    @include col(xs, 12);
-    @include col(sm, 6);
-    @include col(md, 4);
-    @include col(lg, 2);
-    outline: 1px dashed red;
-  }
+  //@media (min-width: $screen-sm) {
+  //  &__grid>* {
+  //    flex-basis: 50%;
+  //  }
+  //}
+  //
+  //@media (min-width: $screen-md) {
+  //  &__grid>* {
+  //    flex-basis: 33%;
+  //  }
+  //}
 }
