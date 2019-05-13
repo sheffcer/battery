@@ -5,11 +5,14 @@ $screen-lg:                   992px !default;
 $screen-xl:                   1200px !default;
 $screen-xxl:                  1800px !default;
 
-$container-sm:                100% !default;
-$container-md:                100% !default;
-$container-lg:                ($screen-lg - 30) !default;
-$container-xl:                ($screen-xl - 30) !default;
-$container-xxl:               ($screen-xxl - 30) !default;
+//$container-sm:                100% !default;
+$container-xs:                ($screen-xs - 40) !default;
+$container-sm:                ($screen-sm - 40) !default;
+//$container-md:                100% !default;
+$container-md:                ($screen-md - 40) !default;
+$container-lg:                ($screen-lg - 40) !default;
+$container-xl:                ($screen-xl - 40) !default;
+$container-xxl:               ($screen-xxl - 40) !default;
 
 $grid-columns:                12 !default;
 $grid-gutter-width:           40px !default;
@@ -33,9 +36,13 @@ $grid-gutter-width:           40px !default;
   margin-left: auto;
   margin-right: auto;
 
-  @if ($xs-grid-gutter != 0) {
-    padding-left: ($xs-grid-gutter / 2);
-    padding-right: ($xs-grid-gutter / 2);
+  @media (min-width: $screen-xs) {
+    width: $container-xs;
+
+    @if ($xs-grid-gutter != 0) {
+      padding-left: ($xs-grid-gutter / 2);
+      padding-right: ($xs-grid-gutter / 2);
+    }
   }
 
   @media (min-width: $screen-sm) {

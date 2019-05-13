@@ -74,11 +74,12 @@ $screen-lg:                   992px;
 $screen-xl:                   1200px;
 $screen-xxl:                  1800px;
 
-$container-sm:                100%;
-$container-md:                100%;
-$container-lg:                $screen-lg - 30;
-$container-xl:                $screen-xl - 30;
-$container-xxl:               $screen-xxl - 30;
+$container-xs:                $screen-xs - 40;
+$container-sm:                $screen-sm - 40;
+$container-md:                $screen-md - 40;
+$container-lg:                $screen-lg - 40;
+$container-xl:                $screen-xl - 40;
+$container-xxl:               $screen-xxl - 40;
 
 // Модульная сетка
 
