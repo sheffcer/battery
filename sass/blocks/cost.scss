@@ -2,4 +2,8 @@
   &__inner {
     @include container;
   }
+
+  &__grid {
+    list-style: none;
+  }
 }

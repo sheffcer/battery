@@ -1,5 +1,15 @@
 .page-header {
+  margin-bottom: 40px;
+
   &__inner {
     @include container;
+    outline: 1px dotted green;
+    min-height: 63px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

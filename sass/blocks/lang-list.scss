@@ -1,0 +1,17 @@
+.lang-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 35px;
+
+  &__link {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: $link-color;
+  }
+
+  &__link--active {
+    color: $color-danger!important;
+  }
+}
+
