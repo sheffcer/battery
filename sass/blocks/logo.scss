@@ -1,0 +1,13 @@
+.logo {
+  &--header {
+    @media(min-width: $container-md) {
+      margin-left: 35px;
+    }
+
+    @media(min-width: $screen-lg) {
+      margin: 0;
+      margin-left: -20px;
+    }
+
+  }
+}
