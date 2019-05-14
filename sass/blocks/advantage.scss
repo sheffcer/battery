@@ -1,6 +1,7 @@
 .advantage {
   &__inner {
     @include container;
+    outline: 1px dotted red;
   }
 
   &__grid {
