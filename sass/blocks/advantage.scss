@@ -1,10 +1,86 @@
 .advantage {
+  margin-top: 46px;
+
+  @media (min-width: $screen-md) {
+    margin-top: 20px;
+  }
+
   &__inner {
     @include container;
     outline: 1px dotted red;
+    min-height: 170px;
+
+    @media (min-width: $screen-md) {
+      min-height: 130px;
+    }
   }
 
   &__grid {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    min-height: 105px;
+    @include row;
+
+    @media (min-width: $screen-md) {
+      min-height: 90px;
+      max-width: 370px;
+      margin: 0;
+    }
   }
+
+  &__image-grid {
+    display: none;
+    @media (min-width: $screen-md) {
+      display: flex;
+      width: 300px;
+      height: 120px;
+      justify-content: space-evenly;
+      min-width: 300px;
+      max-height: 120px;
+      margin-top: -40px;
+    }
+  }
+
+  &__item {
+    @include col(xs, 4, 12, 0);
+    @include col(sm, 4, 12, 0);
+    @include col(md, 4, 12, 0);
+    outline: 1px dotted green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__title {
+    font-family: $font-family;
+    font-size: 22px;
+    font-weight: normal;
+  }
+
+  &__text {
+    font-family: $font-family;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: normal;
+    color:$link-color;
+    letter-spacing: 0.2px;
+    text-align: center;
+  }
+
+  &__text--main {
+    color: $blue-main;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+
+    @media (min-width: $screen-md) {
+      font-size: 24px;
+    }
+  }
+
 }
