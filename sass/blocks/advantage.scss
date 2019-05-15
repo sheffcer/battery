@@ -12,7 +12,6 @@
   &__inner {
     @include container;
     outline: 1px dotted red;
-    min-height: 170px;
 
     @media (min-width: $screen-md) {
       min-height: 130px;
