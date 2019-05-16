@@ -6,7 +6,7 @@ $line-height:                 1.5 !default;
 $field-padding-vertical:      0.3em !default;
 $field-padding-horizontal:    0.7em !default;
 
-$border-radius:               rem(3px) !default;
+//$border-radius:               rem(3px) !default;
 
 .btn {
 
@@ -16,28 +16,41 @@ $border-radius:               rem(3px) !default;
   display: inline-block;
   vertical-align: middle;
   margin: 0;
-  padding: $field-padding-vertical  $field-padding-horizontal;
+  //padding: $field-padding-vertical  $field-padding-horizontal;
+  padding: 5px 10px;
   white-space: nowrap;
   user-select: none;
   text-align: center;
-  font-size: 1em;
-  font-family: inherit;
+  font-family: $font-family-semibold;
+  font-size: 13px;
+  font-weight: bold;
   line-height: $line-height;
   text-decoration: none;
   text-transform: none;
-  color: $text-color;
-  border-radius: $border-radius;
-  border: 1px solid $gray-lighter;
-  background-color: $gray-lightest;
+  color: $btn-text;
+  //border-radius: $border-radius;
+  //border: 1px solid $gray-lighter;
+  background-color: $btn-color;
   background-image: none;
   cursor: pointer;
+  border-radius: 4px;
+  z-index: 0;
 
   &:hover,
   &:focus {
     text-decoration: none;
-    color: $text-color;
-    background-color: darken($gray-lightest, 10%);
+    color: $btn-text;
+    background-color: $red-danger;
+    //background-color: darken($gray-lightest, 10%);
     border-color: darken($gray-lighter, 12%);
+
+  }
+
+  &--intro {
+    padding-left: 35px;
+    padding-top: 6px;
+    padding-right: 5px;
+    padding-bottom: 6px;
   }
 
   &:visited {

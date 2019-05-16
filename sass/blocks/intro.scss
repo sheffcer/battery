@@ -1,6 +1,7 @@
 .intro {
   @media (min-width: $screen-md) {
     margin-top: -15px;
+    position: relative;
   }
   &__inner {
     @include container;
@@ -16,6 +17,25 @@
     @media (min-width: $screen-lg) {
       min-height: 830px;
     }
+  }
+
+  & button {
+    border: none;
+    border: 0;
+    left: 170px;
+    position: relative;
+    bottom: 100px;
+  }
+
+  & button::before {
+    position: absolute;
+    content: '';
+    background: url("../img/hand-mobile.png")no-repeat;
+    width: 23px;
+    height: 24px;
+    left: 5px;
+    top: 2.5px;
+
   }
 
   &__titles {
