@@ -82,7 +82,8 @@ $grid-gutter-width:           40px !default;
   }
 
   @media (min-width: $screen-xxl) {
-    width: $container-xxl;
+    //width: $container-xxl;
+    width: $container-lg;
 
     @if ($xxl-grid-gutter != $xl-grid-gutter) {
       padding-left: ($xxl-grid-gutter / 2);
