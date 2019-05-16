@@ -17,4 +17,37 @@
       min-height: 830px;
     }
   }
+
+  &__titles {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-top: 10px;
+  }
+
+  &__title {
+    color: $light-blue;
+    text-align: left;
+  }
+
+  &__title--first {
+    font-family: $font-family-semibold;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  &__title--second {
+    margin-top: -16px;
+    font-family: $font-family-bold;
+    font-size: 92px;
+    font-weight: bold;
+
+  }
+
+  &__title--fird {
+    margin-top: -35px;
+    font-family: $font-family-semibold;
+    font-size: 48px;
+    font-weight: bold;
+  }
 }

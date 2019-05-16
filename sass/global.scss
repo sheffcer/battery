@@ -15,14 +15,14 @@ img {
 //
 @media (min-width: $screen-md) {
   body {
-    //background: url("/_design/battery_tablet.jpg") no-repeat center top;
+    background: url("/_design/battery_tablet.jpg") no-repeat center top;
     min-height: 3088px;
   }
 }
 
 @media (min-width: $screen-lg) {
   body {
-    //background: url("/_design/battery_desktop.jpg") no-repeat center top;
+    background: url("/_design/battery_desktop.jpg") no-repeat center top;
     min-height: 4447px;
   }
 }
