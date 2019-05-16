@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Akrobat-Regular";
   font-weight: normal;
   font-style: normal;
   src:
@@ -11,7 +11,30 @@
 
 
 @font-face {
-  font-family: "Open Sans Light";
+  font-family: "Akrobat-Bold";
+  font-weight: bold;
+  font-style: normal;
+  src:
+          local("Akrobat-Bold"),
+          local("Akrobat-Bold"),
+          url("../fonts/Akrobat-Bold.woff2") format("woff2"),
+          url("../fonts/Akrobat-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Akrobat-SemiBold";
+  font-weight: bold;
+  font-style: normal;
+  src:
+          local("Akrobat-SemiBold"),
+          local("Akrobat-SemiBold"),
+          url("../fonts/Akrobat-SemiBold.woff2") format("woff2"),
+          url("../fonts/Akrobat-SemiBold.woff") format("woff");
+}
+
+
+@font-face {
+  font-family: "Akrobat-Light";
   font-weight: normal;
   font-style: normal;
   src:
