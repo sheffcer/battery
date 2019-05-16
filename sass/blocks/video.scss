@@ -1,5 +1,11 @@
 .video {
+  margin-top: 20px;
+
   &__inner {
     @include container;
+  }
+
+  &__title {
+    @include visually-hidden;
   }
 }
