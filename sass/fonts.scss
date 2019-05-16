@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  src:
+          local("Akrobat-Regular"),
+          local("Akrobat-Regular"),
+          url("../fonts/Akrobat-Regular.woff2") format("woff2"),
+          url("../fonts/Akrobat-Regular.woff") format("woff");
+}
+
+
+@font-face {
+  font-family: "Open Sans Light";
+  font-weight: normal;
+  font-style: normal;
+  src:
+          local("Akrobat-Light"),
+          local("Akrobat-Light"),
+          url("../fonts/Akrobat-Light.woff2") format("woff2"),
+          url("../fonts/Akrobat-Light.woff") format("woff");
+}

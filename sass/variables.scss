@@ -13,7 +13,7 @@ $retina: '(min-resolution: 144dpi) and (min-resolution: 1.5dppx)';
 
 
 
-$font-family: 'Arial', 'Tahoma', sans-serif;
+$font-family: 'Akrobat-Regular',-apple-system, BlinkMacSystemFont, 'Roboto', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif,;
 $font-family-bold: 'Open Sans Bold', "Arial", sans-serif;
 $font-family-light: 'Open Sans Light', "Arial", sans-serif;
 
@@ -47,7 +47,7 @@ $font-size--small:            80%;
 
 $line-height:                 1.5;
 
-$font-family:                 -apple-system, BlinkMacSystemFont, 'Roboto', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+//$font-family:                 -apple-system, BlinkMacSystemFont, 'Roboto', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 $font-family--serif:          'Georgia', 'Times New Roman', 'Times', serif;
 $font-family--monospace:      SFMono-Regular, 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
 $font-family--headings:       $font-family;
