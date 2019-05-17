@@ -10,24 +10,25 @@ $field-padding-horizontal:    0.7em !default;
 
 .btn {
 
-  //$block-name:                &; // #{$block-name}__element
 
   box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
   margin: 0;
   //padding: $field-padding-vertical  $field-padding-horizontal;
-  padding: 5px 10px;
+  padding: 0 25px;
+  //padding: 5px 10px;
   white-space: nowrap;
   user-select: none;
   text-align: center;
   font-family: $font-family-semibold;
-  font-size: 13px;
+  font-size: 32px;
   font-weight: bold;
   line-height: $line-height;
   text-decoration: none;
-  text-transform: none;
+  text-transform: lowercase;
   color: $btn-text;
+  border: none;
   //border-radius: $border-radius;
   //border: 1px solid $gray-lighter;
   background-color: $btn-color;
@@ -51,6 +52,23 @@ $field-padding-horizontal:    0.7em !default;
     padding-top: 6px;
     padding-right: 5px;
     padding-bottom: 6px;
+    font-size: 13px;
+
+    @media (min-width: $screen-md) {
+      font-size: 23px;
+      bottom: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      padding-left: 60px;
+      border-radius: 8px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 36px;
+      border-radius: 10px;
+
+    }
   }
 
   &:visited {

@@ -17,7 +17,8 @@
   &__link {
     display: block;
     padding: 5px;
-    background-color: $gray;
+    font-size: 0;
+    //background-color: $gray;
 
     #{$block-name}__link-wrap--fb & {
       background-color: $color-fb;
@@ -41,6 +42,21 @@
       height: 16px;
       fill: #fff;
     }
+  }
+
+  &__link--facebook img {
+    width: 18px;
+    height: 18px;
+  }
+
+  &__link--instagram img {
+    width: 18px;
+    height: 18px;
+  }
+
+  &__link--youtube img {
+    width: 48px;
+    height: 21px;
   }
 
   &__text {
