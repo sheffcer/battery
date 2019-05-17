@@ -6,12 +6,10 @@
   &__inner {
     @include container;
     outline: 1px dotted blue;
-    //padding-bottom: 250px;
     min-height: 375px;
 
     @media (min-width: $screen-md) {
-      //padding-bottom: 350px;
-      min-height: 545px;
+        min-height: 545px;
     }
 
     @media (min-width: $screen-lg) {
