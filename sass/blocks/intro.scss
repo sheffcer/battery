@@ -40,8 +40,9 @@
   & button::before {
     position: absolute;
     content: '';
-    background: url("../img/hand-mobile.png")no-repeat;
-    width: 23px;
+    background: url("../img/hand-icon.png")no-repeat;
+    background-size: contain;
+    width: 24px;
     height: 24px;
     left: 5px;
     top: 2.5px;
