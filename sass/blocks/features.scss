@@ -1,7 +1,10 @@
 .features {
+  margin-top: -40px;
+
   &__inner {
     @include container;
     outline: 1px dotted green;
+    background-color: $lighting-blue;
 
     @media (min-width: $screen-md) {
       min-height: 340px;
@@ -47,6 +50,21 @@
 
     @media (min-width: $screen-lg) {
       margin-bottom: 15px;
+    }
+  }
+
+  &__item img {
+    width: 28px;
+    height: 28px;
+
+    @media (min-width: $screen-md) {
+      width: 42px;
+      height: 42px;
+    }
+
+    @media (min-width: $screen-md) {
+      width: 64px;
+      height: 64px;
     }
   }
 

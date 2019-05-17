@@ -3,17 +3,29 @@
     margin-top: -15px;
     position: relative;
   }
+
   &__inner {
+
+    background: url("../img/men-mobile.png") no-repeat;
+    width: 320px;
+    height: 347px;
+
     @include container;
     outline: 1px dotted blue;
     min-height: 375px;
 
     @media (min-width: $screen-md) {
         min-height: 545px;
+        background: url("../img/men-tablet.png") no-repeat;
+        width: 768px;
+        height: 610px;
     }
 
     @media (min-width: $screen-lg) {
       min-height: 830px;
+      background: url("../img/men-desktop.png") no-repeat;
+      width: 1200px;
+      height: 836px;
     }
   }
 
