@@ -6,24 +6,26 @@
 
   &__inner {
 
-    //background: url("../img/men-mobile.png") no-repeat;
-    width: 320px;
-    height: 347px;
+    max-height: 375px;
+    background: url("../img/men-mobile.png") no-repeat;
+    background-position: center top;
 
     @include container;
     outline: 1px dotted blue;
     min-height: 375px;
 
+    @media (min-width: $screen-sm) {
+      background: url("../img/men-mobile-enhanced.png") no-repeat;
+    }
+
     @media (min-width: $screen-md) {
         min-height: 545px;
-        //background: url("../img/men-tablet.png") no-repeat;
-        width: 768px;
-        height: 610px;
+        background: url("../img/men-tablet.png") no-repeat;
     }
 
     @media (min-width: $screen-lg) {
       min-height: 830px;
-      //background: url("../img/men-desktop.png") no-repeat;
+      background: url("../img/men-desktop.png") no-repeat;
       width: 1200px;
       height: 836px;
     }
@@ -36,15 +38,22 @@
     position: relative;
     bottom: 100px;
 
+    @media (min-width: $screen-sm) {
+      border: 0;
+      left: 130px;
+      position: relative;
+      bottom: 60px;
+    }
+
     @media (min-width: $screen-md) {
       border: 0;
-      left: 508px;
+      left: 490px;
       position: relative;
       bottom: 102px;
     }
 
     @media (min-width: $screen-lg) {
-      left: 750px;
+      left: 720px;
       padding-left: 90px;
       padding-top: 16px;
       padding-bottom: 16px;
