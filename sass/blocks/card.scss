@@ -9,7 +9,7 @@
   align-items: center;
   min-width: 200px;
   padding: 0 15px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 
   &__inner {
     flex-grow: 1;
@@ -18,13 +18,14 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   &__img-wrap {
     flex-shrink: 0;
     display: block;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   &__img {
@@ -32,7 +33,13 @@
   }
 
   &__title {
-    margin: 0 0 20px;
+    margin: 0 0 0;
+    font-family: $font-family-semibold;
+    font-size: 16px;
+  }
+
+  &__title span {
+    font-size: 19px;
   }
 
   &__new {
@@ -58,5 +65,16 @@
 
   &__buy {
     flex-shrink: 0;
+  }
+
+  &__descr-item {
+    font-family: $font-family;
+    font-size: 14px;
+    //line-height: 21px;
+  }
+
+  &__descr-table{
+    width: 100%;
+    padding-top: 5px;
   }
 }

@@ -1,7 +1,15 @@
 .slider {
   &__inner {
     @include container;
+    outline: 1px dotted blue;
   }
+
+   &__title {
+     font-family: $font-family;
+     font-size: 16px;
+     font-weight: normal;
+
+   }
 
   //&__grid {
   //  @include row;

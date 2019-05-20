@@ -1,11 +1,9 @@
 .social {
-
-  $block-name:                &; // #{$block-name}__
-
+  margin-top: -10px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  margin-top: $typo-margin-vertical;
+  //margin-top: $typo-margin-vertical;
   margin-bottom: $typo-margin-vertical;
   padding: 0;
   list-style: none;
@@ -16,13 +14,13 @@
 
   &__link {
     display: block;
-    padding: 5px;
+    padding: 3px;
     font-size: 0;
     //background-color: $gray;
 
-    #{$block-name}__link-wrap--fb & {
-      background-color: $color-fb;
-    }
+    //#{$block-name}__link-wrap--fb & {
+    //  background-color: $color-fb;
+    //}
 
     // #{$block-name}__link-wrap--vk & {
     //   background-color: $color-vk;
@@ -57,6 +55,7 @@
   &__link--youtube img {
     width: 48px;
     height: 21px;
+    margin-right: 0;
   }
 
   &__text {

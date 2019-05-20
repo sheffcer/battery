@@ -4,6 +4,10 @@
   &__inner {
     @include container;
     outline: 1px dotted black;
+
+    @media (min-width: $screen-md) {
+      margin-top: 25px;
+    }
   }
 
   &__grid {
@@ -20,9 +24,9 @@
     @include col(lg, 6, 12, 0);
     outline: 1px dotted green;
     display: flex;
-    justify-content: space-around;
-    max-height: 140px;
-    //align-items: center;
+    justify-content: space-evenly;
+    min-height: 142px;
+    align-items: center;
   }
 
   &__title {
@@ -53,10 +57,12 @@
   //}
 
   &__descriptions {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 45%;
+    max-height: 110px;
+    margin-top: 5px;
+    //display: flex;
+    //flex-direction: column;
+    //align-items: center;
   }
 
   &__number {
@@ -79,29 +85,35 @@
 
   &__text {
     font-family: $font-family;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     font-weight: normal;
-    color: $link-color;
-    letter-spacing: 0.2px;
-    text-align: center;
+    color: #58595b;
+    margin: 0;
+    padding-left: 10px;
+    //letter-spacing: 0.2px;
+    //text-align: center;
   }
 
   &__subtitle {
-    font-family: $font-family;
-    font-size: 26px;
+    display: block;
+    font-family: $font-family-semibold;
+    font-size: 30px;
     font-weight: normal;
     letter-spacing: 0.2px;
-    text-align: center;
+    margin: 0;
+    //text-align: center;
 
   }
 
   &__subtitle--blue {
-    color: $blue-main;
+     color: $blue-main;
   }
 
   &__subtitle--red {
+    font-size: 24px;
     color: $red-danger;
+    font-family: $font-family-semibold;
   }
 
   &__subtext {

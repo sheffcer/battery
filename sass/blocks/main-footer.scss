@@ -1,7 +1,20 @@
 .main-footer {
-  background-color: $gray-footer;
+  margin-top: 25px;
+  //background-color: $gray-footer;
 
   &__inner {
     @include container;
+    outline: 1px dotted red;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__contacts {
+    width: 40%;
+
   }
 }
