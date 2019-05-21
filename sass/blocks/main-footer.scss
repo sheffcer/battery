@@ -1,20 +1,40 @@
 .main-footer {
   margin-top: 25px;
-  //background-color: $gray-footer;
+  background-color: $gray-footer;
+
+    @media (min-width: $screen-md) {
+      margin-top: 10px;
+    }
 
   &__inner {
     @include container;
     outline: 1px dotted red;
+    max-height: 120px;
+
+    @media (min-width: $screen-md) {
+      max-height: 120px;
+    }
+
   }
 
   &__wrap {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    @media (min-width: $screen-md) {
+      padding-left: 35px;
+      padding-right: 35px;
+    }
   }
 
   &__contacts {
     width: 40%;
+
+    @media (min-width: $screen-md) {
+      display: flex;
+      flex-direction: row;
+    }
 
   }
 }

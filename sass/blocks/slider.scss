@@ -1,4 +1,8 @@
 .slider {
+    @media (min-width: $screen-md) {
+      margin-top: 25px;
+    }
+
   &__inner {
     @include container;
     outline: 1px dotted blue;
@@ -9,6 +13,12 @@
      font-size: 16px;
      font-weight: normal;
 
+     @media (min-width: $screen-md ) {
+       padding-left: 35px;
+       font-size: 20px;
+       margin-bottom: 0;
+       padding-top: 20px;
+     }
    }
 
   //&__grid {

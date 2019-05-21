@@ -13,5 +13,9 @@
 
   &--footer {
     padding-top: 12px;
+
+    @media (min-width: $screen-md) {
+      padding-top: 25px;
+    }
   }
 }

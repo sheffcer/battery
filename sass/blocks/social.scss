@@ -8,6 +8,14 @@
   padding: 0;
   list-style: none;
 
+  @media (min-width: $screen-md) {
+    margin-top: 0;
+    order: 1;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    //max-width: 80px;
+  }
+
   &__link-wrap {
     margin-right: 10px;
   }
@@ -45,17 +53,32 @@
   &__link--facebook img {
     width: 18px;
     height: 18px;
+
+    @media (min-width: $screen-md) {
+      width: 32px;
+      height: 32px;
+    }
   }
 
   &__link--instagram img {
     width: 18px;
     height: 18px;
+    @media (min-width: $screen-md) {
+      width: 32px;
+      height: 32px;
+    }
   }
 
   &__link--youtube img {
     width: 48px;
     height: 21px;
     margin-right: 0;
+
+    @media (min-width: $screen-md) {
+      width: 68px;
+      height: 29px;
+    }
+
   }
 
   &__text {

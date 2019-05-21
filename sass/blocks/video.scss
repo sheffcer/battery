@@ -1,11 +1,20 @@
 .video {
   margin-top: 5px;
 
+    @media (min-width: $screen-md) {
+      margin-top: 25px;
+    }
+
   &__inner {
     @include container;
   }
 
   &__title {
     @include visually-hidden;
+  }
+
+  & .owl-carousel {
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
