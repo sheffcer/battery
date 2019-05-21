@@ -16,13 +16,13 @@ img {
 @media (min-width: $screen-md) {
   body {
     background: url("/_design/battery_tablet.jpg") no-repeat center top;
-    min-height: 3088px;
+    min-height: 3198px;
   }
 }
 
 @media (min-width: $screen-lg) {
   body {
     background: url("/_design/battery_desktop.jpg") no-repeat center top;
-    min-height: 4447px;
+    min-height: 4584px;
   }
 }
