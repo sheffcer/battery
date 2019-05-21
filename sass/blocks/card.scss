@@ -10,6 +10,7 @@
   min-width: 200px;
   padding: 0 15px;
   margin-bottom: 10px;
+  outline: 1px dotted blue;
 
   &__inner {
     flex-grow: 1;
@@ -30,16 +31,30 @@
 
   &__img {
     display: block;
+
+    @media (min-width: $screen-md) {
+      width: 80px;
+      height: 125px;
+    }
   }
 
   &__title {
     margin: 0 0 0;
     font-family: $font-family-semibold;
     font-size: 16px;
+
+    @media (min-width: $screen-md) {
+      font-size: 13px;
+      line-height: 14px;
+    }
   }
 
   &__title span {
     font-size: 19px;
+
+    @media (min-width: $screen-md) {
+      font-size: 16px;
+    }
   }
 
   &__new {

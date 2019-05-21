@@ -36,6 +36,12 @@ $field-padding-horizontal:    0.7em !default;
   border-radius: 4px;
   z-index: 0;
 
+  @media (min-width: $screen-md) {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 24px;
+  }
+
   &:hover,
   &:focus {
     text-decoration: none;

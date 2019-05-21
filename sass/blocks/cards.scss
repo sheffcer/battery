@@ -1,6 +1,10 @@
 .cards {
-  margin-top: -25px;
+  margin-top: -30px;
   padding-bottom: 15px;
+
+    @media (min-width: $screen-md) {
+      margin-top: -15px;
+    }
 
   &__inner {
     @include container;
@@ -12,6 +16,12 @@
     @include row;
     margin-left: 0;
     margin-right: 0;
+
+    @media (min-width: $screen-md) {
+      padding-left: 35px;
+      padding-right: 35px;
+      justify-content: space-between;
+    }
   }
 
   & .card {
@@ -23,5 +33,9 @@
   &__title {
     font-family: $font-family-semibold;
     font-size: 25px;
+
+    @media (min-width: $screen-md) {
+      padding-left: 25px;
+    }
   }
 }

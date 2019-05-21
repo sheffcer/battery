@@ -36,8 +36,9 @@
 
     @media (min-width: $screen-md) {
       min-height: 90px;
-      max-width: 370px;
-      //margin: 0;
+      max-width: 345px;
+      margin: 0;
+      align-content: space-evenly;
     }
 
     @media (min-width: $screen-lg) {
@@ -57,6 +58,10 @@
       max-height: 120px;
       margin: 0;
       margin-top: -40px;
+    }
+
+    @media (min-width: $screen-lg) {
+      min-width: 320px;
     }
 
     @media (min-width: $screen-lg) {
@@ -92,6 +97,10 @@
   &__wrap {
     display: flex;
     justify-content: space-around;
+
+    @media (min-width: $screen-md) {
+     justify-content:  space-evenly;
+    }
 
     @media (min-width: $screen-lg) {
       align-items: flex-start;
@@ -136,13 +145,14 @@
   }
 
   &__text--main {
+    padding-top: 12px;
     font-family: $font-family-semibold;
     color: $blue-main;
     font-size: 25px;
     letter-spacing: 0.2px;
 
     @media (min-width: $screen-md) {
-      font-size: 24px;
+      font-size: 29px;
     }
 
     @media (min-width: $screen-lg) {
