@@ -4,6 +4,10 @@
     position: relative;
   }
 
+  @media (min-width: $screen-lg) {
+    margin-top: 0;
+  }
+
   &__inner {
 
     max-height: 375px;
@@ -26,8 +30,8 @@
     @media (min-width: $screen-lg) {
       min-height: 830px;
       background: url("../img/men-desktop.png") no-repeat;
-      width: 1200px;
-      height: 836px;
+      //width: 1021px;
+      //height: 711px;
     }
   }
 
@@ -53,12 +57,12 @@
     }
 
     @media (min-width: $screen-lg) {
-      left: 720px;
+      left: 708px;
       padding-left: 90px;
       padding-top: 16px;
       padding-bottom: 16px;
       padding-right: 20px;
-      bottom: 175px;
+      bottom: 190px;
     }
   }
 
@@ -164,7 +168,8 @@
     }
 
     @media (min-width: $screen-lg) {
-      margin-left: 46px;
+      //margin-left: -10px;
+      //margin-top: -20px
     }
   }
 }
