@@ -14,7 +14,17 @@
   }
 
   & .owl-carousel {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 0;
+    padding-right: 0;
+
+    @media (min-width: $screen-sm) {
+      padding: 0;
+    }
+
+    @media (min-width: $screen-md) {
+      padding-left: 35px;
+      padding-right: 35px;
+    }
   }
+  
 }
