@@ -1,5 +1,7 @@
 .contact {
 
+  color: $main-text-inverse;
+
     @media (min-width: $screen-md) {
       order: 2;
     }

@@ -43,14 +43,15 @@
   }
 
   &__title {
+    color: $main-text;
+
     @media (min-width: $screen-md) {
       padding-top: 25px;
       padding-left: 35px;
-      font-family: $font-family;
+      font-family: $font-family-semibold;
       font-size: 22px;
       line-height: 16px;
       font-weight: normal;
-      color: $link-color;
     }
 
   }

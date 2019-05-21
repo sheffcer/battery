@@ -113,9 +113,10 @@
   }
 
   &__title {
-    font-family: $font-family;
+    font-family: $font-family-semibold;
     font-size: 25px;
     font-weight: normal;
+    color: $main-text;
 
     @media (min-width: $screen-md) {
       font-family: $font-family-semibold;

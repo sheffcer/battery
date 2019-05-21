@@ -4,7 +4,7 @@
   &__inner {
     @include container;
     outline: 1px dotted green;
-    //background-color: $lighting-blue;
+    background-color: $lighting-blue;
 
     @media (min-width: $screen-md) {
       min-height: 340px;
@@ -99,6 +99,7 @@
     line-height: 20px;
     font-weight: normal;
     font-family: $font-family-semibold;
+    color: $main-text-inverse;
 
     @media (min-width: $screen-sm) {
       text-align: center;
@@ -123,6 +124,7 @@
     font-size: 16px;
     font-weight: bold;
     font-family: $font-family-semibold;
+    color: $main-text-inverse;
     margin: 0;
 
     @media (min-width: $screen-md) {
@@ -140,6 +142,7 @@
     font-size: 13px;
     font-weight: normal;
     font-family: $font-family;
+    color: $main-text-inverse;
     margin: 0;
 
     @media (min-width: $screen-lg) {

@@ -1,6 +1,5 @@
 .main-footer {
   margin-top: 25px;
-  background-color: $gray-footer;
 
     @media (min-width: $screen-md) {
       margin-top: 10px;
@@ -10,6 +9,7 @@
     @include container;
     outline: 1px dotted red;
     max-height: 120px;
+    background-color: $gray-footer;
 
     @media (min-width: $screen-md) {
       max-height: 120px;

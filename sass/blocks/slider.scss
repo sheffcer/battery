@@ -9,9 +9,10 @@
   }
 
    &__title {
-     font-family: $font-family;
+     font-family: $font-family-semibold;
      font-size: 16px;
      font-weight: normal;
+     color: $main-text;
 
      @media (min-width: $screen-md ) {
        padding-left: 35px;
