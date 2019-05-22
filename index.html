@@ -1,175 +1,615 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Index</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <title>Battery</title>
 </head>
 <body>
 <header class="page-header">
-  <div class="page-header__inner">
-    <div class="logo  logo--header">
-      <a href="#">
-        <img src="https://place-hold.it/190x40" alt="logo">
-      </a>
+    <div class="page-header__inner">
+        <div class="page-header__wrapper">
+            <div class="logo  logo--header">
+                <a href="#">
+                    <picture class="logo__img">
+                        <source media="(min-width: 1100px)" srcset="img/logo-desktop.png">
+                        <source media="(min-width: 768px)" srcset="img/logo-tablet.png">
+                        <img src="img/logo.png" alt="logo">
+                    </picture>
+                </a>
+            </div>
+            <div class="lang-list">
+                <a href="#" class="lang-list__link  lang-list__link--active">укр</a>
+                <a href="#" class="lang-list__link">рус</a>
+            </div>
+        </div>
+        <nav class="main-nav main-nav--closed main-nav--nojs">
+            <button class="main-nav__toggle" type="button">open</button>
+            <div class="main-nav__inner">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item">
+                        <a href="#features" class="main-nav__link">переваги</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#use" class="main-nav__link">застосування</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#cost" class="main-nav__link">економія</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#video" class="main-nav__link">огляд</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#card" class="main-nav__link">ассортимент</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#partners" class="main-nav__link">де купити</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
     </div>
-    <nav class="main-nav main-nav--closed main-nav--nojs">
-      <button class="main-nav__toggle" type="button">open</button>
-      <div class="main-nav__inner">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="index.html" class="main-nav__link">Главная</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="catalog.html" class="main-nav__link">Каталог продукции</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="form.html" class="main-nav__link">Подбор программы</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
 </header>
 <main>
-  <section class="program-selection">
-    <div class="program-selection__inner">
-      <h1 class="program-selection__title">Функциональное питание для котов</h1>
-      <p class="program-selection__description">Занялся собой? Займись котом!</p>
-      <a href="#" class="program-selection__link">Подобрать программу</a>
-    </div>
-  </section>
-  <section class="program">
-    <div class="program__inner">
-      <article class="program-card">
-        <div class="program-card__inner">
-                  <span class="program-card__img-wrap">
-                    <img src="https://place-hold.it/54x54" alt="img">
-                  </span>
-          <h2 class="program-card__title">Похудение</h2>
-          <p class="program-card__description">Ваш кот весит больше собаки и почти утратил способность лазить по
-            деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес. </p>
-          <a href="#" class="program-card__link">Каталог Slim</a>
+    <section class="intro">
+        <div class="intro__inner">
+            <div class="intro__titles">
+                <div class="intro__title  intro__title--first">Акумуляторні</div>
+                <div class="intro__title  intro__title--second">USB</div>
+                <div class="intro__title  intro__title--fird">батареї</div>
+            </div>
+            <picture class="intro__img">
+                <source media="(min-width: 1100px)" srcset="img/batteries-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/batteries-tablet.png">
+                <img src="img/batteries-mobile.png" alt="batteries">
+            </picture>
+            <button class="btn  btn--intro">купити зараз</button>
         </div>
-      </article>
-      <article class="program-card">
-        <div class="program-card__inner">
-                  <span class="program-card__img-wrap">
-                    <img src="https://place-hold.it/54x54" alt="img">
-                  </span>
-          <h2 class="program-card__title">Набор массы</h2>
-          <p class="program-card__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat
-            Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-          <a href="#" class="program-card__link">Каталог pro</a>
+    </section>
+    <section id="features" class="features">
+        <div class="features__inner">
+            <h2 class="features__title">Акумуляторні USB батареї ColorWay – PowerBank нового покоління</h2>
+
+            <ul class="features__grid">
+                <li class="features__item">
+                    <img src="img/easy-icon.png" alt="easy-icon" class="features__img">
+                    <div class="features__wrap">
+                        <h3 class="features__subtitle">Легко</h3>
+                        <p class="features__text">Заряджаються від будь-якого USB порту та не потребують спеціальних
+                            зарядних пристроїв
+                        </p>
+                    </div>
+                </li>
+                <li class="features__item">
+                    <img src="img/advantage-icon.png" alt="advantage-icon" class="features__img">
+                    <div class="features__wrap">
+                        <h3 class="features__subtitle">Вигідно</h3>
+                        <p class="features__text">Вартість одного циклу перезарядки обійдеться лише в 50 копійок
+                        </p>
+                    </div>
+                </li>
+                <li class="features__item">
+                    <img src="img/stable-icon.png" alt="stable-icon" class="features__img">
+                    <div class="features__wrap">
+                        <h3 class="features__subtitle">Стабільно</h3>
+                        <p class="features__text">Батарейки видають стабільну вихідну напругу без перепадів до повного
+                            розряду
+
+                        </p>
+                    </div>
+                </li>
+                <li class="features__item">
+                    <img src="img/fast-icon.png" alt="fast-icon" class="features__img">
+                    <div class="features__wrap">
+                        <h3 class="features__subtitle">Швидко</h3>
+                        <p class="features__text">Акумулятор перезаряджається протягом 60-180 хвилин (в залежності від
+                            типу
+                            батареї)
+
+                        </p>
+                    </div>
+                </li>
+                <li class="features__item">
+                    <img src="img/reliably-icon.png" alt="reliably-icon" class="features__img">
+                    <div class="features__wrap">
+                        <h3 class="features__subtitle">Надійно</h3>
+                        <p class="features__text">ЗУ акумуляторних батарей відсутній «ефект пам’яті», що гарантує їх
+                            повний
+                            заряд
+                        </p>
+                    </div>
+                </li>
+                <li class="features__item">
+                    <img src="img/safe-icon.png" alt="safe-icon" class="features__img">
+                    <div class="features__wrap">
+                        <h3 class="features__subtitle">Безпечно</h3>
+                        <p class="features__text">Акумулятори мають вбудований захист від короткого замикання
+                        </p>
+                    </div>
+                </li>
+                <li class="features__item">
+                    <img src="img/ecology-icon.png" alt="ecology-icon" class="features__img">
+                    <div class="features__wrap">
+                        <h3 class="features__subtitle">Екологічно</h3>
+                        <p class="features__text">1 акумуляторна батарея заміняє 500 звичайних батарейок, які потребують
+                            спеціальної утилізації
+                        </p>
+                    </div>
+                </li>
+                <li class="features__item">
+                    <img src="img/comfortably-icon.png" alt="comfortably-icon" class="features__img">
+                    <div class="features__wrap">
+                        <h3 class="features__subtitle">Зручно</h3>
+                        <p class="features__text">Батареї мають індикатор зарядки, що горить під час підзарядки, та
+                            згасає,
+                            коли акумулятор зарядився
+                        </p>
+                    </div>
+                </li>
+                <li class="features__item">
+                    <img src="img/long-term-icon.png" alt="long-term-icon" class="features__img">
+                    <div class="features__wrap">
+                        <h3 class="features__subtitle">Довгостроково</h3>
+                        <p class="features__text">Акумулятори здатні передзаряджатись понад 500 разів, а строк їх
+                            експлуатації становить 5 років
+
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
-      </article>
-    </div>
-  </section>
-  <section class="features">
-    <div class="features__inner">
-      <h2 class="features__title">Как это работает</h2>
-      <ul class="features__list">
-        <li class="features__item">
-          <img src="https://place-hold.it/60x60" alt="" class="features__img">
-          <p class="features__description">Функциональное питание содержит только полезные питательные вещества.</p>
-        </li>
-        <li class="features__item">
-          <img src="https://place-hold.it/60x60" alt="" class="features__img">
-          <p class="features__description">Выпускается в виде порошка, который нужно лишь залить кипятком и
-            готово.</p>
-        </li>
-        <li class="features__item">
-          <img src="https://place-hold.it/60x60" alt="" class="features__img">
-          <p class="features__description">Замените один-два приема обычной еды на наше фунцкциональное питание.</p>
-        </li>
-        <li class="features__item">
-          <img src="https://place-hold.it/60x60" alt="" class="features__img">
-          <p class="features__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section class="example">
-    <div class="example__inner">
-      <h2 class="example__title">Живой пример</h2>
-      <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat
-        Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и
-        по-прежнему спит по 16 часов в день</p>
-      <div class="example__result">
-        <div class="result-item">
-          <span class="result-item__title">5 кг</span>
-          <span class="result-item__text">снижение веса</span>
+    </section>
+    <section id="cost" class="advantage">
+        <div class="advantage__inner">
+            <h2 class="advantage__title">Вигода використання</h2>
+            <div class="advantage__wrap">
+                <ul class="advantage__grid">
+                    <li class="advantage__item">
+                        <span class="advantage__text">Вигідніше звичайної АА батарейки більш ніж в</span>
+                        <span class="advantage__text  advantage__text--main">47 разів</span>
+                    </li>
+                    <li class="advantage__item">
+                        <span class="advantage__text">Вартість одного циклу </span>
+                        <span class="advantage__text  advantage__text--main">43 коп</span>
+                    </li>
+                    <li class="advantage__item">
+                        <span class="advantage__text">Зекономте більше </span>
+                        <span class="advantage__text  advantage__text--main">9700 грн!</span>
+                    </li>
+                </ul>
+
+                <div class="advantage__image-grid">
+                    <img src="img/AAA.jpg" alt="" class="advantage__img" width="80">
+                    <img src="img/AA.jpg" alt="" class="advantage__img" width="80">
+                    <img src="img/18650.jpg" alt="" class="advantage__img" width="80">
+                </div>
+            </div>
         </div>
-        <div class="result-item">
-          <span class="result-item__title">60 дней</span>
-          <span class="result-item__text">затрачено времени</span>
+    </section>
+    <section class="cost">
+        <div class="cost__inner">
+            <h2 class="cost__title">Вартість експлуатації:*</h2>
+            <div class="cost__grid">
+                <div class="cost__item">
+                    <!--<div class="cost__circle">-->
+                    <!--<p class="cost__number">500</p>-->
+                    <!--<p class="cost__cycle">циклів</p>-->
+                    <!--</div>-->
+                    <picture class="cost__img">
+                        <source media="(min-width: 1020px)" srcset="img/cycle_blue-desktop.png">
+                        <source media="(min-width: 768px)" srcset="img/cycle_blue-tablet.png">
+                        <img src="img/cycle_blue-mobile.png" alt="cycle">
+                    </picture>
+
+                    <div class="cost__descriptions">
+                        <p class="cost__text">Акумуляторна USB батарея ColorWay</p>
+                        <p class="cost__subtitle  cost__subtitle--blue">~ 213 грн</p>
+                        <p class="cost__text">Вартість одного циклу ~ 0.43 грн</p>
+                    </div>
+
+                </div>
+                <div class="cost__item">
+                    <!--<div class="cost__circle">-->
+                    <!--<p class="cost__number">500</p>-->
+                    <!--<p class="cost__cycle">циклів<p/>-->
+                    <!--</div>-->
+                    <picture class="cost__img">
+                        <source media="(min-width: 1020px)" srcset="img/cycle_red-desktop.png">
+                        <source media="(min-width: 768px)" srcset="img/cycle_red-tablet.png">
+                        <img src="img/cycle_red-mobile.png" alt="cycle">
+                    </picture>
+                    <div class="cost__descriptions">
+                        <p class="cost__text">Звичайна батарейка</p>
+                        <p class="cost__subtitle  cost__subtitle--red">~ 10000 грн</p>
+                        <p class="cost__text">Вартість одного циклу ~ 20 грн</p>
+                    </div>
+
+                </div>
+            </div>
+            <p class="cost__subtext">*В розрахунку вказана середньоринкова вартість, тому розрахунки можуть
+                відрізнятись в залежності від виробника, типу та вартості батарейки</p>
         </div>
-      </div>
-      <p class="examle__text">Затраты на питание: 15 000 руб.</p>
-      <div class="example__img">
-        <img src="https://place-hold.it/240x230" alt="img">
-      </div>
-      <label class="field-range">
-        <span class="field-range__name">Было</span>
-        <span
-          class="field-range__input-wrap"><input class="field-range__input" type="range" name="counter" min="1"
-                                                 max="100" step="1" value="40">
-              </span>
-        <span class="field-range__name">Стало</span>
-      </label>
-    </div>
-  </section>
+    </section>
+    <section id="use" class="use">
+        <div class="use__inner">
+            <h2 class="use__title">Сфери застосування</h2>
+            <div class="use__grid">
+                <div class="use__item">
+                    <div class="use__img-wrap">
+                        <picture class="use__img">
+                            <source media="(min-width: 1020px)" srcset="img/jeep-desktop.jpg">
+                            <source media="(min-width: 768px)" srcset="img/jeep-tablet.jpg">
+                            <img src="img/jeep-mobile.jpg" alt="jeep">
+                        </picture>
+                    </div>
+                    <p class="use__text">Дитячі іграшки</p>
+                </div>
+                <div class="use__item">
+                    <div class="use__img-wrap">
+                        <picture class="use__img">
+                            <source media="(min-width: 1020px)" srcset="img/recorder-desktop.jpg">
+                            <source media="(min-width: 768px)" srcset="img/recorder-tablet.jpg">
+                            <img src="img/recorder-mobile.jpg" alt="recorder">
+                        </picture>
+                    </div>
+                    <p class="use__text">Фото- та відеотехніка, фотоспалахи</p>
+                </div>
+                <div class="use__item">
+                    <div class="use__img-wrap">
+                        <picture class="use__img">
+                            <source media="(min-width: 1020px)" srcset="img/flashlight-desktop.jpg">
+                            <source media="(min-width: 768px)" srcset="img/flashlight-tablet.jpg">
+                            <img src="img/flashlight-mobile.jpg" alt="flashlight">
+                        </picture>
+                    </div>
+                    <p class="use__text">Ліхтарі та туристичне обладнання</p>
+                </div>
+                <div class="use__item">
+                    <div class="use__img-wrap">
+                        <picture class="use__img">
+                            <source media="(min-width: 1020px)" srcset="img/remote-desktop.jpg">
+                            <source media="(min-width: 768px)" srcset="img/remote-tablet.jpg">
+                            <img src="img/remote-mobile.jpg" alt="remote">
+                        </picture>
+                    </div>
+                    <p class="use__text">Пульти дистанційного керування та комп’ютерні миші</p>
+                </div>
+                <div class="use__item">
+                    <div class="use__img-wrap">
+                        <picture class="use__img">
+                            <source media="(min-width: 1020px)" srcset="img/medical-desktop.jpg">
+                            <source media="(min-width: 768px)" srcset="img/medical-tablet.jpg">
+                            <img src="img/medical-mobile.jpg" alt="medical">
+                        </picture>
+                    </div>
+                    <p class="use__text">Електроприлади та медична техніка</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="video" class="video">
+        <div class="video__inner">
+            <h2 class="video__title">video</h2>
+            <div id="owl-1" class="owl-carousel owl-theme">
+                <div class="item-video">
+                    <iframe src="https://www.youtube.com/embed/YEqVufd7LDI" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="item-video">
+                    <iframe src="https://www.youtube.com/embed/5dFp6GRJaYs" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="card" class="cards">
+        <div class="cards__inner">
+            <h2 class="cards__title">Асортимент</h2>
+            <div class="cards__grid">
+                <article class="card">
+                    <div class="card__inner">
+                        <a href="#" class="card__img-wrap">
+                            <img src="img/AAA.jpg" alt="goods" class="card__img">
+                        </a>
+                        <div class="card__descr">
+                            <h3 class="card__title">Акумуляторна батарея ColorWay AAA micro USB 400 mAh 1.5B <span>CW-UBAAA-01</span></h3>
+                            <table class="card__descr-table">
+                                <tr class="card__descr-item">
+                                    <td>Тип</td>
+                                    <td>AAA</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Ємність</td>
+                                    <td>400 mAh ±10%</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Входи</td>
+                                    <td>micro USB 5V, 160 mAh</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Виходи</td>
+                                    <td>1.5V±0.2V</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Вбудований акумулятор</td>
+                                    <td>Li-Polymer/160mAh/3.7V</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Час заряду</td>
+                                    <td>60 хвилин</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Габарити</td>
+                                    <td>D10 x 44.6 mm</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <button class="btn card__buy">Купити</button>
+                </article>
+                <article class="card">
+                    <div class="card__inner">
+                        <a href="#" class="card__img-wrap">
+                            <img src="img/AAA.jpg" alt="goods" class="card__img">
+                        </a>
+                        <div class="card__descr">
+                            <h3 class="card__title">Акумуляторна батарея ColorWay AA USB 1200 mAh 1.5B <span>CW-UB18650-0</span></h3>
+                            <table class="card__descr-table">
+                                <tr class="card__descr-item">
+                                    <td>Тип</td>
+                                    <td>AA</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Ємність</td>
+                                    <td>1200 mAh ±10%</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Входи</td>
+                                    <td>USB 5V, 500 mAh</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Виходи</td>
+                                    <td>1.5V±0.2V</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Вбудований акумулятор</td>
+                                    <td>Li-Polymer/500mAh/3.7V</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Час заряду</td>
+                                    <td>90-120 хвилин</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Габарити</td>
+                                    <td>D13 x 51 мм</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <button class="btn card__buy">Купити</button>
+                </article>
+                <article class="card">
+                    <div class="card__inner">
+                        <a href="#" class="card__img-wrap">
+                            <img src="img/18650.jpg" alt="goods" class="card__img">
+                        </a>
+                        <div class="card__descr">
+                            <h3 class="card__title">Акумуляторна батарея ColorWay 18650  USB 1200 mAh 3.7B <span>CW-UB186</span></h3>
+                            <table class="card__descr-table">
+                                <tr class="card__descr-item">
+                                    <td>Тип</td>
+                                    <td>18650</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Ємність</td>
+                                    <td>1200 mAh ±10%</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Входи</td>
+                                    <td>USB 5V, 500 mAh</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Виходи</td>
+                                    <td>1.5V±0.2V</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Вбудований акумулятор</td>
+                                    <td>Li-Polymer/1200mAh/3.7V</td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Час заряду</td>
+                                    <td></td>
+                                </tr>
+                                <tr class="card__descr-item">
+                                    <td>Габарити</td>
+                                    <td>D18 x 66.7 мм</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <button class="btn card__buy">Купити</button>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="charge">
+        <div class="charge__inner">
+            <h2 class="charge__title">Заряджайте комп'ютерні USB батареї за допомогою аксесуарів ColorWay</h2>
+            <div class="charge__grid">
+                <div class="charge__item">
+                    <picture class="charge__img">
+                        <source media="(min-width: 1020px)" srcset="img/powersocket-desktop.jpg">
+                        <source media="(min-width: 768px)" srcset="img/powersocket-tablet.jpg">
+                        <img src="img/powersocket-mobile.jpg" alt="powesocket">
+                    </picture>
+
+                    <h3 class="charge__text">Мережеві фільтри</h3>
+                </div>
+                <div class="charge__item">
+                    <picture class="charge__img">
+                        <source media="(min-width: 1020px)" srcset="img/car-charge-desktop.jpg">
+                        <source media="(min-width: 768px)" srcset="img/car-charge-tablet.jpg">
+                        <img src="img/car-charge-mobile.jpg" alt="car-charge">
+                    </picture>
+                    <h3 class="charge__text">Автомобільні зарядні пристрої</h3>
+                </div>
+                <div class="charge__item">
+                    <picture class="charge__img">
+                        <source media="(min-width: 1020px)" srcset="img/charge-desktop.jpg">
+                        <source media="(min-width: 768px)" srcset="img/charge-tablet.jpg">
+                        <img src="img/charge-mobile.jpg" alt="charge">
+                    </picture>
+                    <h3 class="charge__text">USB зарядні пристрої та світлодіодні лампи </h3>
+                </div>
+                <div class="charge__item">
+                    <picture class="charge__img">
+                        <source media="(min-width: 1020px)" srcset="img/cable-desktop.jpg">
+                        <source media="(min-width: 768px)" srcset="img/cable-tablet.jpg">
+                        <img src="img/cable-mobile.jpg" alt="cable">
+                    </picture>
+                    <h3 class="charge__text">Кабелі для зарядки</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="partners" class="slider">
+        <div class="slider__inner">
+            <h2 class="slider__title">Магазини-партнери</h2>
+            <div id="owl-2" class="owl-carousel owl-theme">
+                <a target="_blank" href="">
+                    <img alt="" src="img/allo.png">
+                </a>
+                <a target="_blank" href="">
+                    <img alt="" src="img/f.png">
+                </a>
+                <a target="_blank" href="">
+                    <img alt="" src="img/repka.png">
+                </a>
+                <a target="_blank" href="">
+                    <img alt="" src="img/rozetka.png">
+                </a>
+                <a target="_blank" href="">
+                    <img alt="" src="img/rubin.jpg">
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 <footer class="main-footer">
-  <div class="main-footer__inner">
-    <div class="main-footer-wrap">
-      <h2 class="main-footer__title">приглашаем к сотрудничеству дилеров!</h2>
-      <p class="main-footer__contact">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-    </div>
-    <div class="main-footer__map">
-      <img src="https://place-hold.it/310x360" alt="map">
-    </div>
-    <div class="main-footer-wrap">
-      <div class="logo  logo--footer">
-        <a href="#">
-          <img src="https://place-hold.it/54x54" alt="logo">
-        </a>
-      </div>
-      <ul class="social">
-        <li class="social__link-wrap social__link-wrap--vk">
-          <a href="" class="social__link">vk
-            <img src="https://place-hold.it/25x25" alt="vk">
-            <!--<svg class="social-link__img  social-link__img&#45;&#45;vk">-->
-            <!--<use xlink:href="img/symbols.svg#icon-vk"></use>-->
-            <!--</svg>-->
-          </a>
-        </li>
-        <li class="social__link-wrap social__link-wrap--vk">
-          <a href="" class="social__link">instagram
-            <img src="https://place-hold.it/25x25" alt="instagram">
-            <!--<svg class="social-link__img  social-link__img&#45;&#45;vk">-->
-            <!--<use xlink:href="img/symbols.svg#instagram"></use>-->
-            <!--</svg>-->
-          </a>
-        </li>
-        <li class="social__link-wrap social__link-wrap--vk">
-          <a href="" class="social__link">facebook
-            <img src="https://place-hold.it/25x25" alt="facebook">
-            <!--<svg class="social-link__img  social-link__img&#45;&#45;vk">-->
-            <!--<use xlink:href="img/symbols.svg#facebook"></use>-->
-            <!--</svg>-->
-          </a>
-        </li>
-      </ul>
-      <div class="page-footer__html">
-        <h3 class="page-footer__html-text">HTML Academy</h3>
-        <img class="page-footer__html-logo" src="https://place-hold.it/30x40" alt="logo">
-      </div>
-    </div>
-  </div>
-</footer>
+    <div class="main-footer__inner">
+        <div class="main-footer__wrap">
+        <div class="logo  logo--footer">
+            <a href="#">
+                <picture class="logo__img">
+                    <source media="(min-width: 1100px)" srcset="img/logo-modify-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/logo-modify-tablet.png">
+                    <img src="img/logo-modify-mobile.png" alt="logo footer">
+                </picture>
+            </a>
+        </div>
+        <div class="main-footer__contacts">
+            <div class="contact">
+                <p class="contact__text">
+                    Україна, <br>
+                    04073 пр. Степана <br>Бандери 21, Київ <br>
+                    info@colorway.com <br>
+                    + 38 (044) 490-3552
+                </p>
+            </div>
+            <ul class="social">
+                <li class="social__link-wrap social__link-wrap--facebook">
+                    <a href="" class="social__link  social__link--facebook">facebook
+                        <img src="/img/facebook-icon.png" alt="facebook" width="18">
+                        <!--<svg class="social-link__img  social-link__img&#45;&#45;vk">-->
+                        <!--<use xlink:href="img/symbols.svg#facebook"></use>-->
+                        <!--</svg>-->
+                    </a>
+                </li>
+                <li class="social__link-wrap social__link-wrap--instagram">
+                    <a href="" class="social__link  social__link--instagram">instagram
+                        <img src="img/instagram-icon.png" alt="instagram" width="18">
+                        <!--<svg class="social-link__img  social-link__img&#45;&#45;vk">-->
+                        <!--<use xlink:href="img/symbols.svg#instagram"></use>-->
+                        <!--</svg>-->
+                    </a>
+                </li>
+                <li class="social__link-wrap social__link-wrap--youtube">
+                    <a href="" class="social__link  social__link--youtube">youtube
+                        <img src="img/youtube-icon.png" alt="youtube" width="48">
+                        <!--<svg class="social-link__img  social-link__img&#45;&#45;vk">-->
+                        <!--<use xlink:href="img/symbols.svg#icon-vk"></use>-->
+                        <!--</svg>-->
+                    </a>
+                </li>
+            </ul>
 
+        </div>
+        </div>
+    </div>
+</footer>
 </body>
+<script src="js/main.js"></script>
+<script>
+    $('#owl-1').owlCarousel({
+        items: 1,
+        merge: true,
+        loop: true,
+        margin: 10,
+        videoWidth: 560,
+        videoHeight: 315,
+        video: true,
+        lazyLoad: true,
+        autoplay: true,
+        onPlayVideo: true,
+
+    });
+</script>
+<script>
+    $('#owl-2').owlCarousel({
+            // items: 5,
+            merge: true,
+            loop: true,
+            margin: 10,
+            lazyLoad: true,
+            autoplay: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                    dots: false
+                },
+                320: {
+                    items: 1,
+                    nav: false,
+                    dots: false
+                },
+                480: {
+                    items: 2,
+                    nav: false,
+                    dots: false
+                },
+                768: {
+                    items: 3,
+                    nav: false,
+                    dots: false
+                },
+                992: {
+                    items: 5,
+                    nav: false,
+                    loop: true,
+                }
+            }
+        }
+    );
+</script>
 </html>
