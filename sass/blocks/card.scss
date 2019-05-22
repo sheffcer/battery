@@ -20,6 +20,11 @@
     flex-direction: column;
     width: 100%;
     margin-bottom: 10px;
+
+    @media (min-width: $screen-lg) {
+      margin-bottom: 0;
+      padding-bottom: 35px;
+    }
   }
 
   &__img-wrap {
@@ -36,6 +41,10 @@
       width: 80px;
       height: 125px;
     }
+    @media (min-width: $screen-lg) {
+      width: 121px;
+      height: 180px;
+    }
   }
 
   &__title {
@@ -47,6 +56,10 @@
     @media (min-width: $screen-md) {
       font-size: 13px;
       line-height: 14px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 19.4px;
     }
   }
 
@@ -88,6 +101,10 @@
     font-size: 14px;
     color: $main-text;
     //line-height: 21px;
+
+    @media (min-width: $screen-lg) {
+      font-size: 17px;
+    }
   }
 
   &__descr-table{

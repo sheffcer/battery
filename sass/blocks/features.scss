@@ -4,7 +4,7 @@
   &__inner {
     @include container;
     outline: 1px dotted green;
-    background-color: $lighting-blue;
+    //background-color: $lighting-blue;
 
     @media (min-width: $screen-md) {
       min-height: 340px;

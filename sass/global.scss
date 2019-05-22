@@ -3,7 +3,7 @@ body {
   margin: 0;
   //min-width: 1000px;
   font-family: $font-family;
-  background: url("/_design/battery_mobile.jpg") no-repeat center top;
+  //background: url("/_design/battery_mobile.jpg") no-repeat center top;
   min-height: 4366px;
   background-position: center top;
   //background-color: #2aab6d;
@@ -16,7 +16,7 @@ img {
 //
 @media (min-width: $screen-md) {
   body {
-    background: url("/_design/battery_tablet.jpg") no-repeat center top;
+    //background: url("/_design/battery_tablet.jpg") no-repeat center top;
     min-height: 3198px;
   }
 }
