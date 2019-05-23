@@ -16,6 +16,12 @@
     //max-width: 80px;
   }
 
+  @media (min-width: $screen-lg) {
+    max-width: 130px;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__link-wrap {
     margin-right: 10px;
   }
@@ -58,14 +64,25 @@
       width: 32px;
       height: 32px;
     }
+
+    @media (min-width: $screen-lg) {
+      width: 49px;
+      height: 49px;
+    }
   }
 
   &__link--instagram img {
     width: 18px;
     height: 18px;
+
     @media (min-width: $screen-md) {
       width: 32px;
       height: 32px;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 49px;
+      height: 49px;
     }
   }
 
@@ -77,6 +94,11 @@
     @media (min-width: $screen-md) {
       width: 68px;
       height: 29px;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 104px;
+      height: 49px;
     }
 
   }

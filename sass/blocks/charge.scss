@@ -18,6 +18,12 @@
       padding-left: 35px;
       padding-right: 35px;
     }
+
+    @media (min-width: $screen-lg) {
+      margin-top: 35px;
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   &__item {
@@ -43,6 +49,11 @@
       padding-left: 35px;
       padding-top: 30px;
     }
+
+    @media (min-width:  $screen-lg) {
+      font-size: 31px;
+      padding-left: 0;
+    }
   }
 
   &__text {
@@ -55,5 +66,9 @@
     //@media (min-width: $screen-md) {
     //  text-align: center;
     //}
+
+    @media (min-width: $screen-lg) {
+      font-size: 19.4px;
+    }
   }
 }

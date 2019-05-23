@@ -199,7 +199,7 @@ gulp.task("build", function (fn) {
 });
 
 // Отправка в GH pages (ветку gh-pages репозитория)
-var ghPagesUrl = 'https://sheffcer.github.io/battery/index.html';
+var ghPagesUrl = 'https://sheffcer.github.io/battery/';
 
 gulp.task('deploy', function() {
     console.log('---------- Публикация ./build/ на GH pages');

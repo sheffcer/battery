@@ -3,9 +3,23 @@
       margin-top: 25px;
     }
 
+    @media (min-width: $screen-lg) {
+      margin-top: 50px;
+    }
+
   &__inner {
     @include container;
     outline: 1px dotted blue;
+
+    @media (min-width: $screen-lg) {
+      min-height: 230px;
+    }
+  }
+
+  & .owl-carousel {
+    @media (min-width: $screen-lg) {
+      margin-top: 25px;
+    }
   }
 
    &__title {
@@ -19,6 +33,12 @@
        font-size: 20px;
        margin-bottom: 0;
        padding-top: 20px;
+     }
+
+     @media (min-width: $screen-lg) {
+       padding-left: 0;
+       padding-top: 30px;
+       font-size: 31px;
      }
    }
 
