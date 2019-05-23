@@ -101,6 +101,7 @@
     font-size: 14px;
     color: $main-text;
     //line-height: 21px;
+    border-bottom: 1px solid $main-text;
 
     @media (min-width: $screen-lg) {
       font-size: 17px;
@@ -110,5 +111,10 @@
   &__descr-table{
     width: 100%;
     padding-top: 5px;
+    border-collapse: collapse;
+  }
+
+  &__descr-table tbody:nth-child(1) {
+    border-top: 1px solid $main-text; ;
   }
 }
