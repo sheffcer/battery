@@ -280,7 +280,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     outline: 1px dotted red;
-    max-height: 120px; }
+    max-height: 120px;
+    background-color: #a5acb0; }
   .main-footer__wrap {
     display: -ms-flexbox;
     display: flex;
@@ -357,7 +358,8 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px dotted green; }
+  outline: 1px dotted green;
+  background-color: #93bad4; }
 
 .features__grid {
   list-style: none;
