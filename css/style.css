@@ -169,10 +169,14 @@ img {
   .card__descr-item {
     font-family: "Akrobat-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", "Arial", sans-serif;
     font-size: 14px;
-    color: #58595b; }
+    color: #58595b;
+    border-bottom: 1px solid #58595b; }
   .card__descr-table {
     width: 100%;
-    padding-top: 5px; }
+    padding-top: 5px;
+    border-collapse: collapse; }
+  .card__descr-table tbody:nth-child(1) {
+    border-top: 1px solid #58595b; }
 
 .cards {
   margin-top: -30px;
@@ -1167,6 +1171,8 @@ img {
     margin-top: 15px; }
   .cards__inner{
     width: 728px; }
+  .cards__inner{
+    background: linear-gradient(to bottom, #dfecf7 0%, white 59%); }
   .cards__grid{
     padding-left: 35px;
     padding-right: 35px;
@@ -1453,6 +1459,8 @@ img {
     margin-top: 0; }
   .charge__inner{
     width: 728px; }
+  .charge__inner{
+    background: linear-gradient(to bottom, #dfecf7 0%, white 59%); }
   .charge__grid{
     padding-left: 35px;
     padding-right: 35px; }
@@ -1462,6 +1470,9 @@ img {
     max-width: 25%;
     padding-left: 0;
     padding-right: 0; }
+  .charge__item{
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
   .charge__title{
     font-size: 20px;
     padding-left: 35px;
@@ -1494,7 +1505,6 @@ img {
 
 @media (min-width: 1100px){
   body{
-    background: url("/_design/battery_desktop.jpg") no-repeat center top;
     min-height: 4584px; }
   .promo__inner{
     width: 1020px; }
@@ -1789,6 +1799,7 @@ img {
   .use__inner{
     width: 1020px; }
   .use__inner{
+    background-color: #ecf3f8;
     margin-top: 60px;
     max-height: 348px; }
   .use__grid{
@@ -1811,8 +1822,8 @@ img {
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-align: baseline;
-    align-items: baseline;
+    -ms-flex-align: center;
+    align-items: center;
     border-radius: 8px; }
   .use__text{
     font-size: 19.4px; }
@@ -1835,7 +1846,7 @@ img {
     padding-left: 0;
     padding-right: 0; }
   .slider{
-    margin-top: 50px; }
+    margin-top: 65px; }
   .slider__inner{
     width: 1020px; }
   .slider__inner{
