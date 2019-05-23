@@ -9,6 +9,11 @@
     @include container;
     outline: 1px dotted green;
     padding-bottom: 10px;
+
+    @media (min-width: $screen-md) {
+      background: $gradient-color;
+    }
+
   }
 
   &__grid {
@@ -36,6 +41,10 @@
     min-height: 229px;
     margin-bottom: -15px;
     outline: 1px dotted pink;
+
+    @media (min-width: $screen-md) {
+      justify-content: space-around;
+    }
   }
 
   &__title {
