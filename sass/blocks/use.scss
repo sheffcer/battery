@@ -1,7 +1,7 @@
 .use {
 
   @media (min-width: $screen-md) {
-   margin-top: -25px;
+    margin-top: -25px;
   }
 
   &__inner {
@@ -59,6 +59,7 @@
 
   &__title {
     color: $main-text;
+    position: relative;
 
     @media (min-width: $screen-md) {
       padding-top: 25px;
@@ -77,8 +78,19 @@
 
   }
 
+  @media (max-width: $screen-md) {
+    &__title::after {
+      left: 5px;
+      top: 130%;
+      position: absolute;
+      content: "";
+      width: 271px;
+      height: 1px;
+      background-color: #ababac;
+    }
+  }
+
   &__img {
-    //display: block;
 
     @media (min-width: $screen-md) {
       width: 110px;

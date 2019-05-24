@@ -118,6 +118,7 @@
     font-size: 25px;
     font-weight: normal;
     color: $main-text;
+    position: relative;
 
     @media (min-width: $screen-md) {
       font-family: $font-family-semibold;
@@ -131,6 +132,20 @@
       font-size: 36px;
     }
   }
+
+  @media (max-width: $screen-md) {
+    &__title::after {
+      left: 5px;
+      top: 130%;
+      position: absolute;
+      content: "";
+      width: 271px;
+      height: 1px;
+      background-color: #ababac;
+    }
+  }
+
+
 
   &__text {
     display: block;

@@ -5,7 +5,7 @@ body {
   font-family: $font-family;
   //background: url("/_design/battery_mobile.jpg") no-repeat center top;
   //min-height: 4366px;
-  //background-position: center top;
+  background-position: center top;
   //background-color: #2aab6d;
 
   & main {
@@ -41,13 +41,13 @@ img {
 @media (min-width: $screen-md) {
   body {
     //background: url("/_design/battery_tablet.jpg") no-repeat center top;
-    min-height: 3198px;
+    //min-height: 3198px;
   }
 }
 
 @media (min-width: $screen-lg) {
   body {
-    background: url("/_design/battery_desktop.jpg") no-repeat center top;
-    min-height: 4584px;
+    //background: url("/_design/battery_desktop.jpg") no-repeat center top;
+    //min-height: 4584px;
   }
 }

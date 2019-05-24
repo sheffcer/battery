@@ -1,5 +1,5 @@
 .charge {
-  margin-top: 50px;
+  margin-top: -10px;
 
     @media (min-width: $screen-md) {
       margin-top: 0;
@@ -52,6 +52,7 @@
     font-size: 25px;
     line-height: 27px;
     color: $main-text;
+    position: relative;
 
     @media (min-width: $screen-md) {
       font-size: 20px;
@@ -62,6 +63,18 @@
     @media (min-width:  $screen-lg) {
       font-size: 31px;
       padding-left: 0;
+    }
+  }
+
+  @media (max-width: $screen-md) {
+    &__title::after {
+      left: 5px;
+      top: 130%;
+      position: absolute;
+      content: "";
+      width: 271px;
+      height: 1px;
+      background-color: #ababac;
     }
   }
 
