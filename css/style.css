@@ -119,8 +119,7 @@ img {
       align-items: center;
   min-width: 200px;
   padding: 0 15px;
-  margin-bottom: 10px;
-  outline: 1px dotted blue; }
+  margin-bottom: 10px; }
   .card__inner {
     -ms-flex-positive: 1;
         flex-grow: 1;
@@ -188,8 +187,7 @@ img {
     display: block;
     width: 100%;
     margin-left: auto;
-    margin-right: auto;
-    outline: 1px dotted blue; }
+    margin-right: auto; }
   .cards__grid {
     display: -ms-flexbox;
     display: flex;
@@ -270,7 +268,6 @@ img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px dotted green;
     min-height: 63px; }
   .page-header__wrapper {
     display: -ms-flexbox;
@@ -287,7 +284,6 @@ img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px dotted red;
     max-height: 120px;
     background-color: #a5acb0; }
   .main-footer__wrap {
@@ -365,8 +361,7 @@ img {
   display: block;
   width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  outline: 1px dotted green; }
+  margin-right: auto; }
 
 .features__grid {
   list-style: none;
@@ -379,8 +374,7 @@ img {
   margin-right: -20px;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 25px;
-  outline: 1px dotted blue; }
+  margin-top: 25px; }
   .features__grid > * {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%; }
@@ -391,7 +385,6 @@ img {
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
-  outline: 1px dotted green;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -477,13 +470,9 @@ img {
 
 .main-nav {
   position: relative; }
-  .main-nav__inner {
-    outline: 1px dotted pink; }
   .main-nav__list {
     list-style: none;
     padding-left: 0; }
-    .main-nav__list:nth-child(1) {
-      border-top: 1px solid rgba(100, 100, 100, 0.2); }
   .main-nav__item {
     width: 100%;
     text-align: center;
@@ -579,7 +568,6 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px dotted blue;
   min-height: 375px; }
 
 .intro button {
@@ -635,7 +623,6 @@ img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px dotted red;
     max-height: 150px; }
   .advantage__grid {
     list-style: none;
@@ -661,7 +648,6 @@ img {
     max-width: 33.33333%;
     padding-left: 0;
     padding-right: 0;
-    outline: 1px dotted green;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -700,8 +686,7 @@ img {
   display: block;
   width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  outline: 1px dotted black; }
+  margin-right: auto; }
 
 .cost__grid {
   display: -ms-flexbox;
@@ -733,7 +718,6 @@ img {
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
-  outline: 1px dotted green;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: space-evenly;
@@ -800,7 +784,6 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px dotted green;
   margin-top: 40px; }
 
 .use__grid {
@@ -810,8 +793,7 @@ img {
       flex-wrap: wrap;
   margin-left: -20px;
   margin-right: -20px;
-  margin: 0;
-  outline: 1px dotted pink; }
+  margin: 0; }
   .use__grid > * {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%; }
@@ -861,7 +843,6 @@ img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px dotted green;
     padding-bottom: 10px; }
   .charge__grid {
     display: -ms-flexbox;
@@ -886,8 +867,7 @@ img {
     -ms-flex-align: center;
         align-items: center;
     min-height: 229px;
-    margin-bottom: -15px;
-    outline: 1px dotted pink; }
+    margin-bottom: -15px; }
   .charge__title {
     font-family: "Akrobat-SemiBold", -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", "Arial", sans-serif;
     font-size: 25px;
@@ -925,8 +905,7 @@ img {
   display: block;
   width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  outline: 1px dotted blue; }
+  margin-right: auto; }
 
 .slider__title {
   font-family: "Akrobat-SemiBold", -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", "Arial", sans-serif;
@@ -1309,8 +1288,6 @@ img {
     justify-content: space-around;
     margin-left: 25px;
     margin-right: 25px; }
-  .main-nav__list:nth-child(1){
-    border-top: none; }
   .main-nav__item{
     width: auto;
     background-color: transparent;
@@ -1939,6 +1916,10 @@ img {
     display: none; }
   .main-nav--opened .main-nav__item{
     display: block; }
+  .main-nav--opened .main-nav__item{
+    display: block; }
+  .main-nav--opened .main-nav__list:nth-child(1){
+    border-top: 1px solid rgba(100, 100, 100, 0.2); }
   .main-nav--nojs .main-nav__toggle{
     display: none; }
   .main-nav--nojs .main-nav__item{
