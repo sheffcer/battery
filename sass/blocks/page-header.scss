@@ -6,7 +6,7 @@
 
   &__inner {
     @include container;
-    outline: 1px dotted green;
+    //outline: 1px dotted green;
     min-height: 63px;
 
     @media (min-width: $screen-lg) {

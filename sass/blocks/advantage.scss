@@ -11,7 +11,7 @@
 
   &__inner {
     @include container;
-    outline: 1px dotted red;
+    //outline: 1px dotted red;
     max-height: 150px;
 
     @media (min-width: $screen-md) {
@@ -84,7 +84,7 @@
     @include col(xs, 4, 12, 0);
     @include col(sm, 4, 12, 0);
     @include col(md, 4, 12, 0);
-    outline: 1px dotted green;
+    //outline: 1px dotted green;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

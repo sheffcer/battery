@@ -6,7 +6,7 @@
 
   &__inner {
     @include container;
-    outline: 1px dotted green;
+    //outline: 1px dotted green;
     margin-top: 40px;
 
     @media (min-width: $screen-md) {
@@ -23,7 +23,7 @@
   &__grid {
     @include row;
     margin: 0;
-    outline: 1px dotted pink;
+    //outline: 1px dotted pink;
 
     @media (min-width: $screen-md) {
       flex-direction: row;

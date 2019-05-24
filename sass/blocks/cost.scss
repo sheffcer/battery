@@ -3,7 +3,7 @@
 
   &__inner {
     @include container;
-    outline: 1px dotted black;
+    //outline: 1px dotted black;
 
     @media (min-width: $screen-md) {
       margin-top: 21px;
@@ -75,7 +75,7 @@
     @include col(sm, 12, 12, 0);
     @include col(md, 6, 12, 0);
     @include col(lg, 6, 12, 0);
-    outline: 1px dotted green;
+    //outline: 1px dotted green;
     display: flex;
     justify-content: space-evenly;
     min-height: 142px;

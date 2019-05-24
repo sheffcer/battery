@@ -1,7 +1,6 @@
 .main-nav {
   &__inner {
-    //@include container;
-    outline: 1px dotted pink;
+     //outline: 1px dotted pink;
   }
 
   position: relative;
@@ -26,13 +25,13 @@
       justify-content: space-between;
     }
 
-    &:nth-child(1) {
-      border-top: 1px solid rgba(100, 100, 100, .2);
-
-      @media (min-width: $screen-md) {
-        border-top: none;
-      }
-    }
+    //&:nth-child(1) {
+    //  border-top: 1px solid rgba(100, 100, 100, .2);
+    //
+    //  @media (min-width: $screen-md) {
+    //    border-top: none;
+    //  }
+    //}
   }
 
   &__item {
@@ -199,6 +198,13 @@
 
   .main-nav--opened .main-nav__item {
     display: block;
+  }
+  .main-nav--opened .main-nav__item {
+    display: block;
+  }
+
+  .main-nav--opened .main-nav__list:nth-child(1) {
+    border-top: 1px solid rgba(100,100,100,.2);
   }
 
   .main-nav--nojs .main-nav__toggle {
