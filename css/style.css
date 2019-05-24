@@ -8,9 +8,11 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Akrobat-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", "Arial", sans-serif;
-  min-height: 4366px;
-  background-position: center top; }
+  font-family: "Akrobat-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", "Arial", sans-serif; }
+  body main {
+    background: url("../img/features-bg-mobile.jpg") no-repeat;
+    background-position: center 330px;
+    background-size: 320px 780px; }
 
 img {
   max-width: 100%;
@@ -362,8 +364,7 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px dotted green;
-  background-color: #93bad4; }
+  outline: 1px dotted green; }
 
 .features__grid {
   list-style: none;
@@ -706,10 +707,22 @@ img {
       flex-wrap: wrap;
   margin-left: -20px;
   margin-right: -20px;
-  margin: 0; }
+  position: relative;
+  margin: 0;
+  border: 1px solid #c0c0c1;
+  border-radius: 8px; }
   .cost__grid > * {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%; }
+
+.cost__grid .cost__item:nth-child(1)::after {
+  position: absolute;
+  content: "";
+  width: 244px;
+  height: 1px;
+  background-color: #ababac;
+  top: 50%;
+  left: 5%; }
 
 .cost__item {
   -ms-flex: 0 0 100%;
@@ -992,6 +1005,10 @@ img {
     padding-right: 20px; } }
 
 @media (min-width: 480px){
+  body main{
+    background: url("../img/features-bg-tablet.jpg") no-repeat;
+    background-position: center 280px;
+    background-size: 480px 650px; }
   .promo__inner{
     width: 440px; }
   .promo__img{
@@ -1075,6 +1092,11 @@ img {
     padding-right: 0; }
   .cost__inner{
     width: 440px; }
+  .cost__grid .cost__item:nth-child(1)::after{
+    width: 350px;
+    height: 1px;
+    top: 50%;
+    left: 10%; }
   .cost__item{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
@@ -1126,6 +1148,10 @@ img {
     margin-right: 0; } }
 
 @media (min-width: 768px){
+  body main{
+    background: url("../img/features-bg-tablet.jpg") no-repeat;
+    background-position: center 460px;
+    background-size: 768px 521px; }
   body{
     min-height: 3198px; }
   .promo__inner{
@@ -1312,10 +1338,10 @@ img {
     font-size: 16px;
     margin-right: 10px; }
   .lang-list a:nth-child(1)::after{
-    top: 60%;
-    left: 90%;
+    top: 55%;
+    left: 80%;
     transform: rotate(90deg);
-    width: 90%;
+    width: 80%;
     height: 2px; }
   .intro{
     margin-top: -15px;
@@ -1395,6 +1421,10 @@ img {
     margin-left: 35px;
     margin-right: 35px;
     margin-top: -10px; }
+  .cost__grid .cost__item:nth-child(1)::after{
+    width: 93px;
+    transform: rotate(90deg);
+    left: 43%; }
   .cost__item{
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -1504,6 +1534,10 @@ img {
     height: 97px; } }
 
 @media (min-width: 1100px){
+  body main{
+    background: url("../img/features-bg-desktop.jpg") no-repeat;
+    background-position: center 680px;
+    background-size: 1100px 662px; }
   body{
     min-height: 4584px; }
   .promo__inner{
@@ -1752,12 +1786,16 @@ img {
   .cost__grid{
     margin: 0;
     min-height: 191px;
-    border-left: 1px solid #acaaab;
-    border-right: 1px solid #acaaab;
-    border-bottom: 1px solid #acaaab;
+    border-left: 1px solid #c0c0c1;
+    border-right: 1px solid #c0c0c1;
+    border-bottom: 1px solid #c0c0c1;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     outline: none; }
+  .cost__grid .cost__item:nth-child(1)::after{
+    width: 146px; }
   .cost__item{
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
