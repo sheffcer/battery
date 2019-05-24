@@ -18,7 +18,10 @@
     //list-style: none;
     //padding-inline-start: 0;
     @include row;
+    position: relative;
     margin: 0;
+    border: 1px solid #c0c0c1;
+    border-radius: 8px;
 
     @media (min-width: $screen-md) {
       margin-left: 35px;
@@ -29,13 +32,42 @@
     @media (min-width: $screen-lg) {
       margin: 0;
       min-height: 191px;
-      border-left: 1px solid #acaaab;
-      border-right: 1px solid #acaaab;
-      border-bottom: 1px solid #acaaab;
+      border-left: 1px solid #c0c0c1;
+      border-right: 1px solid #c0c0c1;
+      border-bottom: 1px solid #c0c0c1;
       border-bottom-left-radius: 8px;
       border-bottom-right-radius: 8px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
       outline: none;
     }
+  }
+
+  &__grid .cost__item:nth-child(1)::after {
+      position: absolute;
+      content: "";
+      width: 244px;
+      height: 1px;
+      background-color: #ababac;
+      top: 50%;
+      left: 5%;
+
+      @media (min-width: $screen-sm) {
+        width: 350px;
+        height: 1px;
+        top: 50%;
+        left: 10%;
+      }
+
+      @media (min-width: $screen-md ) {
+        width: 93px;
+        transform: rotate(90deg);
+        left: 43%;
+      }
+
+      @media (min-width: $screen-lg) {
+        width: 146px;
+      }
   }
 
   &__item {

@@ -4,9 +4,33 @@ body {
   //min-width: 1000px;
   font-family: $font-family;
   //background: url("/_design/battery_mobile.jpg") no-repeat center top;
-  min-height: 4366px;
-  background-position: center top;
+  //min-height: 4366px;
+  //background-position: center top;
   //background-color: #2aab6d;
+
+  & main {
+    background: url("../img/features-bg-mobile.jpg")no-repeat;
+    background-position: center 330px;
+    background-size: 320px 780px;
+
+    @media (min-width: $screen-sm) {
+      background: url("../img/features-bg-tablet.jpg")no-repeat;
+      background-position: center 280px;
+      background-size: 480px 650px;
+    }
+
+    @media (min-width: $screen-md) {
+      background: url("../img/features-bg-tablet.jpg")no-repeat;
+      background-position: center 460px;
+      background-size: 768px 521px;
+    }
+
+    @media (min-width: $screen-lg) {
+      background: url("../img/features-bg-desktop.jpg")no-repeat;
+      background-position: center 680px;
+      background-size: 1100px 662px;
+    }
+  }
 }
 
 img {

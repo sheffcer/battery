@@ -51,11 +51,11 @@
     background-color: rgba(128,130,133,1);
 
     @media (min-width: $screen-md) {
-      top: 60%;
-      left: 90%;
+      top: 55%;
+      left: 80%;
       transform: rotate(90deg);
-      width: 90%;
-      height: 2px;
+      width: 80%;
+      height: 2px;;
     }
 
     @media (min-width: $screen-lg) {
