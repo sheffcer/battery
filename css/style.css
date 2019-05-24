@@ -1419,11 +1419,13 @@ img {
   .cost__inner{
     width: 728px; }
   .cost__inner{
-    margin-top: 23px; }
+    margin-top: 21px; }
   .cost__grid{
     margin-left: 35px;
     margin-right: 35px;
-    margin-top: -10px; }
+    margin-top: -20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }
   .cost__grid .cost__item:nth-child(1)::after{
     width: 93px;
     transform: rotate(90deg);
@@ -1441,9 +1443,16 @@ img {
     font-family: "Akrobat-SemiBold", -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", "Arial", sans-serif;
     font-size: 24px;
     line-height: 22px;
-    color: #58595b;
-    margin-left: 45px;
-    margin-top: 5px; }
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 5px;
+    padding-bottom: 7px;
+    background-color: #acaaab;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-left: 13px;
+    padding-top: 3px;
+    color: #ffffff; }
   .cost__subtext{
     display: block;
     font-family: "Akrobat-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", "Arial", sans-serif;
@@ -1550,6 +1559,7 @@ img {
     background-position: center 680px;
     background-size: 1100px 662px; }
   body{
+    background: url("/_design/battery_desktop.jpg") no-repeat center top;
     min-height: 4584px; }
   .promo__inner{
     width: 1020px; }
@@ -1803,8 +1813,6 @@ img {
     border-bottom: 1px solid #c0c0c1;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
     outline: none; }
   .cost__grid .cost__item:nth-child(1)::after{
     width: 146px; }
@@ -1824,7 +1832,6 @@ img {
     padding-bottom: 10px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    color: #ffffff;
     background-color: #acaaab; }
   .cost__img{
     width: 148px;
