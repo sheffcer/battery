@@ -91,7 +91,7 @@
     max-height: 90px;
 
     @media (min-width: $screen-lg) {
-      justify-content: space-between;
+      //justify-content: space-between;
     }
   }
 
@@ -144,8 +144,6 @@
       background-color: #ababac;
     }
   }
-
-
 
   &__text {
     display: block;
