@@ -80,6 +80,10 @@
   &__img {
     //display: block;
 
+    @media (min-width: $screen-md) {
+      width: 110px;
+    }
+
     @media (min-width: $screen-lg) {
       width: 80%;
     }
@@ -94,14 +98,17 @@
     @media (min-width: $screen-md) {
       width: 120px;
       height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     @media (min-width: $screen-lg) {
       width: 184px;
       height: 152px;
       display: flex;
-      justify-content: center;
-      align-items: center;
+      //justify-content: center;
+      //align-items: center;
       border-radius: 8px;
     }
 
