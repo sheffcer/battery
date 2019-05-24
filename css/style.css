@@ -1761,9 +1761,6 @@ img {
   .advantage__img{
     width: 120px;
     height: 200px; }
-  .advantage__item{
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
   .advantage__wrap{
     -ms-flex-align: start;
     align-items: flex-start; }
