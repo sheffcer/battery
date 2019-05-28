@@ -1,4 +1,5 @@
 'use strict';
+@import "../node_modules/svg4everybody/dist/svg4everybody.js";
 
 var mainNav = document.querySelector('.main-nav');
 var toggle = document.querySelector('.main-nav__toggle');
