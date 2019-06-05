@@ -100,27 +100,15 @@
       position: absolute;
       z-index: 1;
       top: -55px;
-      left: 25px;;
+      left: 25px;
       padding: 5px 10px;
       line-height: 1;
       font-weight: 700;
       color: #fff;
-      //background: $color-success;
       transform: translateX(-50%) rotate(-45deg);
     }
 
-    //&::before {
-    //  position: absolute;
-    //  content: "";
-    //  @include triangle(to top left, 70px, 70px, $color-success);
-    //}
   }
-
-  //&::before {
-  //  position: absolute;
-  //  content: "";
-  //  @include triangle(to top left, 50px, 50px, $color-success);
-  //}
 
   &__price {
     flex-shrink: 0;
